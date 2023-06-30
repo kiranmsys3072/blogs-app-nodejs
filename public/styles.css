@@ -1,0 +1,18 @@
+body{
+    background-color: antiquewhite;
+}
+.form{
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.input{
+    display: block;
+}
+
+.button{
+    color: white;
+    background-color: blue;
+
+}
