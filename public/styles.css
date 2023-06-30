@@ -16,3 +16,20 @@ body{
     background-color: blue;
 
 }
+.image-index{
+    width: 100%;
+}
+.heading{
+    text-align: center;
+    color: brown;
+}
+.post{
+    background-color: white;
+    color: black;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 5px;
+}
+.post-title{
+    color: blueviolet;
+}

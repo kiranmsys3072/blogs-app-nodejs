@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Posts</title>
+</head>
+<body>
+    <nav>
+        <a href="/">Home</a>
+        <a href="/about">About</a>
+        <a href="/contact">Contact</a>
+        <a href="/post">Post</a>
+    </nav>
+    <h1>New Post Page</h1>
+    <!-- <form class="form" action="/post/store" method="POST">
+        <div> <input type="text" class="input" name="title" /></div>
+        <textarea type="" name="body" ></textarea>
+       
+        <button type="submit" class="button">Post</button>
+    </form> -->
+
+    <form action="/post/store" method="POST" enctype="multipart/form-data" >
+        <label>Image</label>
+        <input type="file"  id="image" name="image"/>
+        <button type="submit">Submit</button>
+    
+    </form>
+    
+</body>
+</html>
